@@ -4,6 +4,8 @@ Simple Modal window Vue.js component that takes care of overlay, centering, anim
 
 ![VB-preview](https://altrusl.github.io/vuesence-modal-window/vmw.gif)
 
+Can be used for alerts, modals, dialogs etc.
+
 # How to use
 
 You can install it via `npm` 
@@ -11,7 +13,7 @@ You can install it via `npm`
 ```bash
 npm install @vuesence/modal-window --save
 ```
-or just copy-paste `ModalWindow.vue` component code into your Vue.js project
+or just copy/paste `ModalWindow.vue` component code into your Vue.js project
 
 ### Usage:
 
@@ -28,7 +30,7 @@ or just copy-paste `ModalWindow.vue` component code into your Vue.js project
 			@close="showModal = false"
 		>
 			<h2>Modal window</h2>
-			<p>Here be the content</p>
+			<p>Here be content</p>
 		</modal-window>
 	</div>
 </template>
@@ -46,6 +48,8 @@ import ModalWindow from "@vuesence/modal-window";
 
 All the props (`close-on-escape`, `close-on-outside-click`, `show-x-mark`) are optional. 
 Above listed their default values
+
+`showModal` property is used to open\close the window
 
 There can be several instances of the `ModalWindow.vue`
 
