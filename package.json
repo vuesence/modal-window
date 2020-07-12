@@ -1,0 +1,78 @@
+{
+  "name": "@vuesence/modal-window",
+  "description": "Simple lightweight Modal Window as Vue.js component",
+  "version": "0.7.0",
+  "private": false,
+  "main": "dist/modal-window.umd.js",
+  "module": "dist/modal-window.esm.js",
+  "unpkg": "dist/modal-window.umd.min.js",
+  "homepage": "https://altrusl.github.io/vuesence-modal-window/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altrusl/vuesence-modal-window.git"
+  },
+  "author": {
+    "name": "Ruslan Makarov",
+    "url": "https://altrusl.github.io/cv"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "vue",
+    "modal",
+    "modal window"
+  ],
+  "files": [
+    "src/*",
+    "dist/*",
+    "package.json",
+    "README.md",
+    "LICENSE  "
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-dist": "vue-cli-service build --target lib src/components/ModalWindow.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier-eslint": "^11.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "useTabs": true
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
