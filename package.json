@@ -1,7 +1,7 @@
 {
   "name": "@vuesence/modal-window",
-  "description": "Simple lightweight Modal Window as Vue.js component",
-  "version": "0.7.0",
+  "description": "Simple lightweight Modal Window Vue.js component",
+  "version": "0.7.7",
   "private": false,
   "main": "dist/modal-window.umd.js",
   "module": "dist/modal-window.esm.js",

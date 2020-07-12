@@ -13,7 +13,7 @@
 			@close="showModal = false"
 		>
 			<h2>Modal window</h2>
-			<p>Here be the content</p>
+			<p>Here be content</p>
 		</modal-window>
 	</div>
 </template>
