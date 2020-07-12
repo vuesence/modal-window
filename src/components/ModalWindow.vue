@@ -42,7 +42,6 @@ export default {
 					if (this.closeOnOutsideClick) {
 						this.$refs.overlay.addEventListener("click", e => {
 							if (e.target == this.$refs.overlay) {
-								console.log(e.target);
 								this.$emit("close");
 							}
 						});
@@ -61,8 +60,7 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 .vmw-modal-overlay {
 	position: fixed;
 	z-index: 9998;
