@@ -84,9 +84,9 @@ export default {
 	padding: 20px 30px 40px;
 	background-color: #fff;
 	border-radius: 2px;
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.33);
 	transition: all 0.3s ease;
-	font-family: Helvetica, Arial, sans-serif;
+	/* font-family: Helvetica, Arial, sans-serif; */
 	position: relative;
 }
 

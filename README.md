@@ -2,7 +2,7 @@
 
 Simple Modal window Vue.js component that takes care of overlay, centering, animation, outside click/`Escape` key/`X-mark` closing and allows you to concentrate on its content only
 
-![VB-preview](https://altrusl.github.io/vuesence-modal-window/vmw.gif)
+![VB-preview](https://vuesence.github.io/modal-window/vmw.gif)
 
 Can be used for alerts, modals, dialogs etc.
 
@@ -57,7 +57,7 @@ Styling and animation can be customized - check out `ModalWindow.vue`'s `<style>
 
 ## Demo
 
-<a href="https://altrusl.github.io/vuesence-modal-window/" target="_blank">https://altrusl.github.io/vuesence-modal-window/</a>
+<a href="https://vuesence.github.io/modal-window/" target="_blank">https://vuesence.github.io/modal-window/</a>
 
 
 ## Playground
